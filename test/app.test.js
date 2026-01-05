@@ -4,7 +4,7 @@ const { app, server } = require("../app");
 describe("GET /", () => {
 
   afterAll(() => {
-    server.close(); 
+    server.close();
   });
 
   it("should return 200 status and the correct message", async () => {
